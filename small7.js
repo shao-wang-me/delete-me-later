@@ -2,5 +2,5 @@ builder.OpenFile("https://github.com/shao-wang-me/delete-me-later/raw/main/Small
 var oDocument = Api.GetDocument();
 oDocument.AcceptAllRevisionChanges();
 oDocument.SetTrackRevisions(false);
-builder.SaveFile("docx", "LargeFile.docx");
+builder.SaveFile("docx", "SmallFile7.docx");
 builder.CloseFile();
